@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Moxigulning shaxsiy veb-sayti — talaba portfoliosi">
+    <meta name="author" content="Moxigul">
+    <title>Moxigul — Shaxsiy sahifam</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== Navigatsiya ===================== -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="#home" class="logo">
+                <span class="logo-mark">M.</span>
+                <span class="logo-text">moxigul</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Bosh sahifa</a></li>
+                    <li><a href="#about" class="nav-link">Men haqimda</a></li>
+                    <li><a href="#skills" class="nav-link">Bilimlarim</a></li>
+                    <li><a href="#projects" class="nav-link">Loyihalar</a></li>
+                    <li><a href="#contact" class="nav-link">Bog'lanish</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menyu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===================== Hero ===================== -->
+    <section id="home" class="hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="hero-greet">Assalomu alaykum, men —</p>
+                <h1 class="hero-name">
+                    Moxigul<span class="dot">.</span>
+                </h1>
+                <p class="hero-role">Frontend yo'nalishida ilk qadamlarini qo'yayotgan talaba</p>
+                <p class="hero-desc">
+                    HTML5, CSS3 va JavaScript yordamida zamonaviy, responsiv va
+                    foydalanuvchiga qulay interfeyslar yaratishni o'rganmoqdaman.
+                    Bu sayt — mening birinchi katta loyihalarimdan biri.
+                </p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Loyihalarni ko'rish</a>
+                    <a href="#contact" class="btn btn-ghost">Aloqaga chiqish</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <strong>2+</strong>
+                        <span>yillik tajriba<br>ta'lim doirasida</span>
+                    </div>
+                    <div class="stat">
+                        <strong>12</strong>
+                        <span>kichik<br>loyihalar</span>
+                    </div>
+                    <div class="stat">
+                        <strong>∞</strong>
+                        <span>o'rganish<br>ishtiyoqi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-photo-wrap">
+                    <figure class="hero-photo">
+                        <img src="tatuff.webp" alt="Farg'ona davlat texnika universiteti binosi" loading="lazy">
+                        <figcaption>
+                            <span class="ph-badge">FarDTU</span>
+                            <span class="ph-text">Mening universitetim</span>
+                        </figcaption>
+                    </figure>
+                    <span class="floating-tag tag-html">&lt;html&gt;</span>
+                    <span class="floating-tag tag-css">CSS</span>
+                    <span class="floating-tag tag-js">JS</span>
+                    <span class="floating-tag tag-heart">♡</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>pastga harakatlaning</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===================== Men haqimda ===================== -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <span class="kicker">01 — kim men?</span>
+                <h2>Men haqimda</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Salom! Mening hikoyam</h3>
+                    <p>
+                        Men <strong>Farg'ona davlat texnika universiteti</strong>ning
+                        Axborot texnologiyalari va telekommunikatsiya fakulteti talabasiman.
+                        850-23 guruhida o'qiyman.
+                    </p>
+                    <p>
+                        Birinchi kurslarda kompyuter mening uchun shunchaki ijtimoiy tarmoqlarda
+                        suzib yurish vositasi edi. Lekin bir kuni dars vaqtida o'qituvchimiz
+                        oddiy HTML sahifasini ko'rsatib bergach, men butun olamning shu kichik
+                        teglardan tug'ilayotganini his qildim. O'shandan beri o'rganishni
+                        to'xtatmadim.
+                    </p>
+                    <p>
+                        Hozir frontend texnologiyalarini chuqurroq o'rganmoqdaman. Maqsadim —
+                        nafaqat ishlaydigan, balki <em>yoqimli</em> ishlaydigan saytlar yaratish.
+                    </p>
+                </div>
+                <aside class="about-info">
+                    <ul class="info-list">
+                        <li><span>Universitet</span><strong>FarDTU</strong></li>
+                        <li><span>Fakultet</span><strong>AT va Telekommunikatsiya</strong></li>
+                        <li><span>Guruh</span><strong>850-23</strong></li>
+                        <li><span>Shahar</span><strong>Farg'ona</strong></li>
+                        <li><span>Tillar</span><strong>O'zbek, rus, ingliz (B1)</strong></li>
+                        <li><span>Ish vaqtim</span><strong>kechqurun va dam olish kunlari</strong></li>
+                    </ul>
+                    <div class="quote">
+                        <p>"Bilim — bu yagona boylikki, kim bilan bo'lishsang, ko'payadi."</p>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== Bilimlar ===================== -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="kicker">02 — nimani bilaman?</span>
+                <h2>Texnologiyalar va ko'nikmalar</h2>
+                <p class="section-sub">
+                    Quyidagi sohalarda asoslarni o'zlashtirganman va har kun yangi
+                    narsalar o'rganib boraman.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <div class="skill-icon" aria-hidden="true">&lt;/&gt;</div>
+                    <h3>HTML5</h3>
+                    <p>Semantik teglar, formalar, multimedia, SEO uchun mos belgilash.</p>
+                    <div class="bar"><span style="width: 88%"></span></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon icon-css" aria-hidden="true">#</div>
+                    <h3>CSS3</h3>
+                    <p>Flexbox, Grid, animatsiyalar, media so'rovlari, custom properties.</p>
+                    <div class="bar"><span style="width: 82%"></span></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon icon-js" aria-hidden="true">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>DOM bilan ishlash, hodisalar, asoslar va sodda interaktivlik.</p>
+                    <div class="bar"><span style="width: 65%"></span></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon icon-resp" aria-hidden="true">▭</div>
+                    <h3>Responsiv dizayn</h3>
+                    <p>Telefon, planshet va katta ekranlar uchun moslashuvchan tartiblar.</p>
+                    <div class="bar"><span style="width: 78%"></span></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon icon-fig" aria-hidden="true">◆</div>
+                    <h3>Figma</h3>
+                    <p>Maketlarni o'qish, oddiy interfeyslarni chizish va prototiplash.</p>
+                    <div class="bar"><span style="width: 60%"></span></div>
+                </article>
+
+                <article class="skill-card">
+                    <div class="skill-icon icon-git" aria-hidden="true">⎇</div>
+                    <h3>Git asoslari</h3>
+                    <p>Commit, branch, push, pull — kundalik ish jarayoni.</p>
+                    <div class="bar"><span style="width: 55%"></span></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== Loyihalar ===================== -->
+    <section id="projects" class="section projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="kicker">03 — qo'lim bilan qilganlarim</span>
+                <h2>Loyihalarim</h2>
+                <p class="section-sub">
+                    O'qish davomida bajargan bir nechta amaliy ishlarim. Bular katta
+                    loyihalar emas, lekin ularning har biri menga nimadir o'rgatdi.
+                </p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-thumb thumb-1">
+                        <span class="thumb-emoji">☕</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-tag">HTML · CSS</span>
+                        <h3>Kafe menyusi sayti</h3>
+                        <p>
+                            Kichkina kafe uchun bir sahifali menyu sayti. Ovqatlar ro'yxati,
+                            narxlari va aloqa ma'lumotlari bilan.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS Grid</span><span>Flexbox</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-thumb thumb-2">
+                        <span class="thumb-emoji">📚</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-tag">HTML · CSS · JS</span>
+                        <h3>Onlayn kutubxona</h3>
+                        <p>
+                            Kitoblar ro'yxati, qidiruv va tasniflash imkoniyatiga ega
+                            interaktiv sahifa.
+                        </p>
+                        <div class="project-tech">
+                            <span>JavaScript</span><span>Local Storage</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-thumb thumb-3">
+                        <span class="thumb-emoji">🌤️</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-tag">JS · API</span>
+                        <h3>Ob-havo widgeti</h3>
+                        <p>
+                            Foydalanuvchi shahriga ko'ra real vaqtdagi ob-havo ma'lumotini
+                            ko'rsatadigan kichik dastur.
+                        </p>
+                        <div class="project-tech">
+                            <span>Fetch API</span><span>Async/Await</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card featured">
+                    <div class="project-thumb thumb-4">
+                        <span class="thumb-emoji">✨</span>
+                    </div>
+                    <div class="project-body">
+                        <span class="project-tag">Joriy loyiha</span>
+                        <h3>Mening shaxsiy saytim</h3>
+                        <p>
+                            Hozir ko'rib turgan saytingiz! HTML5 va CSS3 asosida noldan
+                            yaratilgan, butunlay responsiv va kutubxonalarsiz.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML5</span><span>CSS3</span><span>Vanilla JS</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== Aloqa ===================== -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="kicker">04 — bog'lanish</span>
+                <h2>Keling, gaplashamiz</h2>
+                <p class="section-sub">
+                    Savol, taklif yoki shunchaki "salom" demoqchimisiz? Hammasiga
+                    xursand bo'laman.
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="ci-icon">✉</div>
+                        <div>
+                            <span class="ci-label">Email</span>
+                            <a href="mailto:moxigul.dev@gmail.com">moxigul.dev@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">☎</div>
+                        <div>
+                            <span class="ci-label">Telefon</span>
+                            <a href="tel:+998900000000">+998 (90) 000-00-00</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="ci-icon">⌖</div>
+                        <div>
+                            <span class="ci-label">Joylashuv</span>
+                            <span>Farg'ona shahri, O'zbekiston</span>
+                        </div>
+                    </div>
+                    <div class="socials">
+                        <a href="#" aria-label="Telegram">tg</a>
+                        <a href="#" aria-label="Instagram">ig</a>
+                        <a href="#" aria-label="GitHub">gh</a>
+                        <a href="#" aria-label="LinkedIn">in</a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" novalidate>
+                    <label class="field">
+                        <span>Ismingiz</span>
+                        <input type="text" name="name" required placeholder="masalan, Aziz">
+                    </label>
+                    <label class="field">
+                        <span>Email manzilingiz</span>
+                        <input type="email" name="email" required placeholder="siz@example.com">
+                    </label>
+                    <label class="field">
+                        <span>Xabar</span>
+                        <textarea name="message" rows="5" required placeholder="Yozing — diqqat bilan o'qiyman."></textarea>
+                    </label>
+                    <button type="submit" class="btn btn-primary btn-block">Yuborish</button>
+                    <p class="form-note" id="formNote" hidden></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== Footer ===================== -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Moxigul. Sevgi va qahva bilan tayyorlandi.</p>
+            <p class="muted">FarDTU · 850-23 · Loyiha ishi</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
