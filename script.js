@@ -1,5 +1,5 @@
 /* =========================================
-   Moxigul portfolio — JavaScript
+   Mohigul portfolio — JavaScript
    Asosiy interaktivlik uchun
    ========================================= */
 
@@ -128,6 +128,6 @@
         '%c Salom! ',
         'background: linear-gradient(90deg,#6d4ed8,#ff8a73); color:#fff; font-size:14px; padding:6px 14px; border-radius:6px;'
     );
-    console.log('Saytni ko\'rib chiqayotganingiz uchun rahmat. — Moxigul');
+    console.log('Saytni ko\'rib chiqayotganingiz uchun rahmat. — Mohigul');
 
 })();
